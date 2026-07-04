@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "updated": "2026-07-04",
+    "generatedBy": "initial-manual",
+    "note": "Kilde for Stege Status. Ugentlig Claude-agent re-researcher aabningstider + markeder og overskriver denne fil. hours: index 0=mandag .. 6=soendag; null = lukket den dag. Tider som HH:MM (24t)."
+  },
+
+  "places": [
+    {
+      "id": "rema1000", "name": "REMA 1000", "category": "Supermarked",
+      "address": "Kostervej 2B, Lendemarke",
+      "logo": "logos/rema1000.svg",
+      "brand": { "bg": "#004b9b", "fg": "#ffffff", "label": "REMA 1000" },
+      "hours": [
+        {"open":"07:00","close":"21:00"},{"open":"07:00","close":"21:00"},
+        {"open":"07:00","close":"21:00"},{"open":"07:00","close":"21:00"},
+        {"open":"07:00","close":"21:00"},{"open":"07:00","close":"21:00"},
+        {"open":"07:00","close":"21:00"}
+      ]
+    },
+    {
+      "id": "netto", "name": "Netto", "category": "Supermarked",
+      "address": "Ved Stranden 32",
+      "brand": { "bg": "#ffdb00", "fg": "#1a1a1a", "label": "Netto" },
+      "hours": [
+        {"open":"07:00","close":"22:00"},{"open":"07:00","close":"22:00"},
+        {"open":"07:00","close":"22:00"},{"open":"07:00","close":"22:00"},
+        {"open":"07:00","close":"22:00"},{"open":"07:00","close":"22:00"},
+        {"open":"07:00","close":"22:00"}
+      ]
+    },
+    {
+      "id": "365discount", "name": "365discount", "category": "Supermarked",
+      "address": "Østervangsvej 2",
+      "brand": { "bg": "#e8552d", "fg": "#ffffff", "label": "365" },
+      "hours": [
+        {"open":"07:00","close":"21:00"},{"open":"07:00","close":"21:00"},
+        {"open":"07:00","close":"21:00"},{"open":"07:00","close":"21:00"},
+        {"open":"07:00","close":"21:00"},{"open":"07:00","close":"21:00"},
+        {"open":"07:00","close":"21:00"}
+      ]
+    },
+    {
+      "id": "superbrugsen", "name": "SuperBrugsen Lendemark", "category": "Supermarked",
+      "address": "Vasen 3, Lendemark",
+      "logo": "logos/superbrugsen.jpg",
+      "brand": { "bg": "#b0143c", "fg": "#ffffff", "label": "SuperBrugsen" },
+      "hours": [
+        {"open":"07:00","close":"20:00"},{"open":"07:00","close":"20:00"},
+        {"open":"07:00","close":"20:00"},{"open":"07:00","close":"20:00"},
+        {"open":"07:00","close":"20:00"},{"open":"07:00","close":"20:00"},
+        {"open":"07:00","close":"20:00"}
+      ]
+    },
+
+    {
+      "id": "xlbyg", "name": "XL-BYG", "category": "Byggemarked",
+      "address": "Støvvasen 2 · Møens Tømmerhandel",
+      "logo": "logos/xlbyg.svg",
+      "brand": { "bg": "#c8102e", "fg": "#ffffff", "label": "XL-BYG" },
+      "hours": [
+        {"open":"08:00","close":"17:00"},{"open":"08:00","close":"17:00"},
+        {"open":"08:00","close":"17:00"},{"open":"08:00","close":"17:00"},
+        {"open":"08:00","close":"17:00"},{"open":"08:00","close":"14:00"},
+        null
+      ]
+    },
+
+    {
+      "id": "matas", "name": "Matas", "category": "Personlig pleje",
+      "address": "Storegade 41",
+      "logo": "logos/matas.svg",
+      "brand": { "bg": "#0072ce", "fg": "#ffffff", "label": "Matas" },
+      "hours": [
+        {"open":"09:30","close":"17:00"},{"open":"09:30","close":"17:00"},
+        {"open":"09:30","close":"17:00"},{"open":"09:30","close":"17:00"},
+        {"open":"09:30","close":"18:00"},{"open":"09:30","close":"14:00"},
+        null
+      ]
+    },
+
+    {
+      "id": "oebageren", "name": "Øbageren", "category": "Bageri",
+      "address": "Storegade 58 · Surdejsbageri & café",
+      "brand": { "bg": "#3f6b4c", "fg": "#f4efe0", "label": "Øbageren" },
+      "note": "Tider usikre/svingende paa nettet — bekraeft.",
+      "hours": [
+        null,
+        {"open":"07:00","close":"14:00"},{"open":"07:00","close":"14:00"},
+        {"open":"07:00","close":"14:00"},{"open":"07:00","close":"14:00"},
+        {"open":"07:00","close":"14:00"},{"open":"07:00","close":"14:00"}
+      ]
+    },
+    {
+      "id": "delfino", "name": "Delfino Pizzaria", "category": "Spisested",
+      "address": "Storegade 10A",
+      "brand": { "bg": "#0a7d3c", "fg": "#ffffff", "label": "Delfino" },
+      "hours": [
+        {"open":"13:00","close":"20:50"},{"open":"13:00","close":"20:50"},
+        {"open":"13:00","close":"20:50"},{"open":"13:00","close":"20:50"},
+        {"open":"13:00","close":"20:50"},{"open":"13:00","close":"20:50"},
+        {"open":"13:00","close":"20:50"}
+      ],
+      "closures": [
+        { "from": "2026-06-19", "to": "2026-07-19", "reason": "Sommerlukket" }
+      ]
+    },
+    {
+      "id": "saftig", "name": "Saftig", "category": "Spisested",
+      "address": "Ved Stranden 1 · Café & Snackbar",
+      "brand": { "bg": "#e0533b", "fg": "#ffffff", "label": "Saftig" },
+      "hours": [
+        {"open":"12:00","close":"20:00"},{"open":"12:00","close":"20:00"},
+        {"open":"12:00","close":"20:00"},{"open":"12:00","close":"20:00"},
+        {"open":"12:00","close":"20:00"},{"open":"12:00","close":"20:00"},
+        {"open":"12:00","close":"20:00"}
+      ]
+    }
+  ],
+
+  "markets": {
+    "recurring": [
+      {
+        "id": "tirsdagsmarked",
+        "title": "Tirsdagsmarked i Stege",
+        "location": "Torvet / Storegade",
+        "weekday": 2,
+        "seasonFrom": "2026-06-30",
+        "seasonTo": "2026-08-04",
+        "open": "10:00",
+        "close": "17:00"
+      }
+    ],
+    "dates": [
+      { "id": "kraemmer-fri", "title": "Møns Kræmmermarked", "location": "Dyrskuepladsen · Falcksvej 4", "date": "2026-06-12", "open": "12:00", "close": "23:59" },
+      { "id": "kraemmer-lor", "title": "Møns Kræmmermarked", "location": "Dyrskuepladsen · Falcksvej 4", "date": "2026-06-13", "open": "10:00", "close": "23:59" },
+      { "id": "kraemmer-son", "title": "Møns Kræmmermarked", "location": "Dyrskuepladsen · Falcksvej 4", "date": "2026-06-14", "open": "10:00", "close": "18:00" }
+    ]
+  }
+}
