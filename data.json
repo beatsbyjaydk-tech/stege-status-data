@@ -115,6 +115,18 @@
         {"open":"12:00","close":"20:00"},{"open":"12:00","close":"20:00"},
         {"open":"12:00","close":"20:00"}
       ]
+    },
+    {
+      "id": "hosbang", "name": "Hos Bang", "category": "Kiosk",
+      "address": "Storegade 68A · kiosk & pakkeudlevering",
+      "brand": { "bg": "#e23c6a", "fg": "#ffffff", "label": "Hos Bang" },
+      "note": "Sommer-tider; søndag usikker (kilder modstrider) — agent verificerer.",
+      "hours": [
+        {"open":"09:00","close":"21:00"},{"open":"09:00","close":"21:00"},
+        {"open":"09:00","close":"21:00"},{"open":"09:00","close":"21:00"},
+        {"open":"09:00","close":"21:00"},{"open":"09:00","close":"21:00"},
+        {"open":"09:00","close":"21:00"}
+      ]
     }
   ],
 
